@@ -68,26 +68,17 @@ const verbData = [
 ];
 
 const simpleStarters = [
-  { stroke: "STHA", word: "that" },
-  { stroke: "STPA", word: "if" },
-  { stroke: "SWH", word: "when" },
-  { stroke: "SWHA", word: "what" },
-  { stroke: "SWHR", word: "where" },
-  { stroke: "SWHO", word: "who" },
-  { stroke: "SWHAO", word: "why" },
-  { stroke: "SPWH", word: "but" },
-  { stroke: "STPR", word: "for" },
+  { stroke: "THA", word: "that" },
+  { stroke: "TP", word: "if" },
+  { stroke: "WH", word: "when" },
+  { stroke: "TKPWHR", word: "but" },
   { stroke: "SKP", word: "and" },
 ];
 
 const simplePronouns = [
   { stroke: "EU", word: "I", form: "am" },
-  { stroke: "*EU", word: "we", form: "are" },
   { stroke: "E", word: "he", form: "is" },
-  { stroke: "*E", word: "she", form: "is" },
   { stroke: "U", word: "you", form: "are" },
-  { stroke: "*U", word: "they", form: "are" },
-  { stroke: "*", word: "it", form: "is" },
 ];
 
 const fullStarters = [
