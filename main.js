@@ -4,7 +4,7 @@ const HAVE = "T have had has having had/to";
 const verbData = [
   "RB ask asked asks asking asked",
   BE,
-  "RPBG become became becomes becoming become/a",
+  "become became becomes becoming become/a",
   "BL believe believed believes believing believed/that",
   "RBLG call called calls calling called",
   "BG can can can can can",
