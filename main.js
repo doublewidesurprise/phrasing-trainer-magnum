@@ -2,21 +2,15 @@ const BE = "B are be am were was is being been/a";
 const DO = "RP do did does doing done/it";
 const HAVE = "T have had has having had/to";
 const verbData = [
-  "ask asked asks asking asked",
+
   BE,
-  "become became becomes becoming become/a",
-  "believe believed believes believing believed/that",
-  "call called calls calling called",
-  "can can can can can",
-  "care cared cares caring cared",
-  "change changed changes changing changed",
-  "consider considered considers considering considered",
+  "BG can can can can could",
   DO,
   "PGS expect expected expects expecting expected/that",
   "LT feel felt feels feeling felt/like",
   "PBLG find found finds finding found/that",
   "RG forget forgot forgets forgetting forgotten/to",
-  "GS get got gets getting got/to",
+  "GS guess guessed guesses guessing/so",
   "GZ give gave gives giving given",
   "G go went goes going gone/to",
   HAVE,
@@ -32,7 +26,7 @@ const verbData = [
   "LS let let lets letting let",
   "BLG like liked likes liking liked/to",
   "LZ live lived lives living lived",
-  "L look looked looks looking looked",
+  "L will will will will would/",
   "LG love loved loves loving loved/to",
   "RPBL make made makes making made/a",
   "PL may might may may might/be",
@@ -72,6 +66,7 @@ const simpleStarters = [
   { stroke: "WH", word: "when" },
   { stroke: "TKPWHR", word: "but" },
   { stroke: "SKP", word: "and" },
+  { stroke: "SO", word: "so" },
 ];
 
 const simplePronouns = [
