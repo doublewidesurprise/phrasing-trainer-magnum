@@ -1,6 +1,6 @@
-const BE = "R are be am were was is being been/a";
+const BE = "B are be am were was is being been/a";
 const DO = "RP do did does doing done/it";
-const HAVE = "F have had has having had/to";
+const HAVE = "T have had has having had/to";
 const verbData = [
 
   BE,
@@ -10,8 +10,6 @@ const verbData = [
   "G go went goes going gone/to",
   HAVE,
   "PBG think thought thinks thinking thought",
-  "T the the the the the the",
-  "*T it it it it it it",
   "PB know knew knows knowing known/that",
   "RLS realize realized realizes realizing realized/that"
   "S say said says saying said/that",
