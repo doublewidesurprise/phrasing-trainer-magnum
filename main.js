@@ -1,23 +1,13 @@
 
-const BE = "B are be am were was is being been/a";
-const DO = "RP do did does doing done/it";
-const HAVE = "T have had has having had/to";
 const verbData = [
-  BE,
   "PBLG come came comes coming come/to",
-  DO,
   "FL feel felt feels felt",
-  "PBLG find found finds finding found/that",
   "GS guess * * * *",
   "G go went goes * */to",
-  HAVE,
-  "PB know knew knows knowing known/that",
-  "RPBS learn learned learns learning learned/to",
-  "LS let let lets * let",
+  "PB know * knows * *",
   "LGT look looked looks looking looked",
   "RPBL make made makes making made/a",
   "PL may might may may might/be",
-  "PBL mean meant means meaning meant/to",
   "PLZ move moved moves moving moved",
   "PBLGS must must must * */be",
   "RPS need needed needs needing needed/to",
@@ -26,9 +16,7 @@ const verbData = [
   "RPL remember remembered remembers remembering remembered/that",
   "RPLS remain remained remains remaining remained",
   "BS say said says saying said/that",
-  "S see saw sees seeing seen",
-  "PLS seem seemed seems seeming seemed/to",
-  "BLS set set sets setting set",
+  "S say said says seeing seen",
   "RBL shall should shall * *",
   "T tell told tells telling told/us",
   "PBG think * * * thought",
