@@ -1,14 +1,12 @@
+
 const BE = "B are be am were was is being been/a";
 const DO = "RP do did does doing done/it";
 const HAVE = "T have had has having had/to";
 const verbData = [
   BE,
-  "RBLG call called calls calling called",
-  "BGS can could can * *",
-  "RZ care cared cares caring cared",
-  "BG come came comes coming come/to",
+  "PBLG come came comes coming come/to",
   DO,
-  "LT feel felt feels feeling felt/like",
+  "FL feel felt feels felt",
   "PBLG find found finds finding found/that",
   "GS guess * * * *",
   "G go went goes * */to",
@@ -16,17 +14,14 @@ const verbData = [
   "PB know knew knows knowing known/that",
   "RPBS learn learned learns learning learned/to",
   "LS let let lets * let",
-  "L look looked looks looking looked",
-  "LG love loved loves loving loved/to",
+  "LGT look looked looks looking looked",
   "RPBL make made makes making made/a",
   "PL may might may may might/be",
   "PBL mean meant means meaning meant/to",
   "PLZ move moved moves moving moved",
   "PBLGS must must must * */be",
-  "RPG need needed needs needing needed/to",
+  "RPS need needed needs needing needed/to",
   "PS put put puts putting put/it",
-  "RS read read reads reading read",
-  "RLS realize realized realizes realizing realized/that",
   "RL recall recalled recalls recalling recalled",
   "RPL remember remembered remembers remembering remembered/that",
   "RPLS remain remained remains remaining remained",
@@ -35,17 +30,13 @@ const verbData = [
   "PLS seem seemed seems seeming seemed/to",
   "BLS set set sets setting set",
   "RBL shall should shall * *",
-  "RBZ show showed shows showing shown",
-  "RBT take took takes taking taken",
-  "RLT tell told tells telling told/us",
+  "T tell told tells telling told/us",
   "PBG think * * * thought",
   "RT try tried tries trying tried/to",
-  "RPB understand understood understands understanding understood/the",
+  "PBD understand understood understands understanding understood/the",
   "Z see saw * * *",
-  "P want wanted wants wanting wanted/to",
-  "RBGS will would will * *",
+  "PT want wanted wants wanting wanted/to",
 ];
-
 const simpleStarters = [
   { stroke: "THA", word: "that" },
   { stroke: "TP", word: "if" },
